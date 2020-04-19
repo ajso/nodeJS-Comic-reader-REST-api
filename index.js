@@ -11,8 +11,8 @@ var bodyparser = require('body-parser');
 //connect to the MySQL server
 var con = mysql.createConnection({
     host:'localhost',
-    user:'root',
-    password:'0205712000',
+    user:'root', //root
+    password:'',//password
     database:'android_comicapp' //databes name
 })
 
